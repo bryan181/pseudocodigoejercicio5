@@ -1,0 +1,24 @@
+Proceso cantidad_de_mujeres_y_hombres  
+	definir m,h,n,e,i Como entero;
+	definir s,femenino,masculino Como caracter;
+	escribir "cuantas personas desea ingresar: ";
+	leer n;
+
+	Para i<-1 Hasta  n  Hacer
+		escribir i ")ingrese la edad:" ;
+		Leer e;
+		escribir i ")ingrese el sexo:" ;
+		Leer s;
+		Si (e>=1 Y e<=100) Entonces
+		Si (e>=18) y (s == 'femenino')Entonces
+			escribir "las mujeres mayores son el numero:" " " i+1 ") " e;
+		Fin Si
+		si (e<=18) y (s== 'masculino') entonces 
+			escribir "los hombres menores son el numero:" " " i+1 ") " e ;
+		FinSi
+		
+		
+	fin si
+
+	Fin Para
+FinProceso
