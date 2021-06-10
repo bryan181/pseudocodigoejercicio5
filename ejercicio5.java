@@ -3,7 +3,7 @@ import java.util.*;
 public class ejercicio5 {
 
 	public static void main(String args[]) {
-		//Variables globales del algoritmo
+		
 		int conteo_h, conteo_m;
 		int e, i, n;
 		String s;
